@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomePageHeadCoordinatorController">
+   <children>
+      <Button layoutX="512.0" layoutY="48.0" mnemonicParsing="false" text="Add Vanue" />
+      <TextArea layoutX="333.0" layoutY="61.0" prefHeight="38.0" prefWidth="150.0" promptText="Information of the vanue" />
+      <TextField layoutX="333.0" layoutY="26.0" promptText="New Vanue Name" />
+      <Line endX="26.20001220703125" endY="76.60000610351562" layoutX="298.0" layoutY="91.0" startX="26.20001220703125" startY="-80.99999237060547" />
+      <Line endX="153.0" layoutX="432.0" layoutY="188.0" startX="-100.0" />
+      <Button layoutX="361.0" layoutY="148.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="194.0" text="Select Vanue for the Group" />
+      <Button layoutX="318.0" layoutY="200.0" mnemonicParsing="false" text="Make Student Group" />
+      <Button layoutX="97.0" layoutY="320.0" mnemonicParsing="false" text="Send Notice" />
+      <TextArea layoutX="24.0" layoutY="221.0" prefHeight="82.0" prefWidth="227.0" promptText="Write down NOTICE here" />
+      <Line endX="26.20001220703125" endY="76.60000610351562" layoutX="247.0" layoutY="302.0" startX="26.20001220703125" startY="-80.99999237060547" />
+      <Line endX="153.0" layoutX="115.0" layoutY="200.0" startX="-100.0" />
+      <Button layoutX="318.0" layoutY="333.0" mnemonicParsing="false" text="Check Compains" />
+      <Label layoutX="30.0" layoutY="26.0" text="Welcome to Home Page" textAlignment="JUSTIFY" wrapText="true">
+         <font>
+            <Font name="Rage Italic" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="452.0" layoutY="333.0" mnemonicParsing="false" text="Check Final Report" />
+      <ComboBox layoutX="333.0" layoutY="113.0" prefHeight="26.0" prefWidth="96.0" promptText="Group" />
+      <ComboBox layoutX="437.0" layoutY="113.0" prefHeight="26.0" prefWidth="150.0" promptText="Vanue" />
+      <Button layoutX="318.0" layoutY="236.0" mnemonicParsing="false" text="Money Management" />
+   </children>
+</AnchorPane>

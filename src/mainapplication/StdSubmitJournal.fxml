@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainapplication.StdSubmitJournalController">
+   <children>
+      <Label layoutX="104.0" layoutY="42.0" text="ID :">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idField" layoutX="225.0" layoutY="39.0" />
+      <Label layoutX="104.0" layoutY="92.0" text="Number of Day :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="NumberOfDayField" layoutX="225.0" layoutY="89.0" />
+      <TextArea fx:id="TextAreaInput" layoutX="60.0" layoutY="146.0" prefHeight="200.0" prefWidth="500.0" promptText="Write your Complain Here......" />
+      <Button layoutX="283.0" layoutY="354.0" mnemonicParsing="false" onAction="#SubmitButtonOnAction" text="Submit" />
+      <Button layoutX="534.0" layoutY="367.0" mnemonicParsing="false" onAction="#LogOutButtonOnAction" text="LogOut" />
+      <Button layoutX="25.0" layoutY="367.0" mnemonicParsing="false" onAction="#BackToHomeButtonOnClick" text="Back To Home" />
+   </children>
+</AnchorPane>
