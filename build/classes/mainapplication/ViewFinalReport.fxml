@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="484.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19">
+   <children>
+      <Label layoutX="247.0" layoutY="37.0" text="Final Report">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ComboBox layoutX="48.0" layoutY="92.0" prefWidth="150.0" promptText="Student ID" />
+      <Button layoutX="220.0" layoutY="92.0" mnemonicParsing="false" text="Show " />
+      <TextArea layoutX="33.0" layoutY="143.0" prefHeight="157.0" prefWidth="534.0" style="-fx-border-color: Black;" />
+      <Label layoutX="219.0" layoutY="331.0" text="Enter Grade:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="307.0" layoutY="322.0" prefHeight="12.0" prefWidth="74.0" />
+      <Button layoutX="263.0" layoutY="389.0" mnemonicParsing="false" text="Submit Grade" />
+   </children>
+</AnchorPane>
